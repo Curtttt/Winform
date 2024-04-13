@@ -21,7 +21,6 @@ namespace WinForm
         private void num_click(object sender, EventArgs e)
         {
             Button num = (Button)sender;
-
             txt.Text += num.Text;
         }
 
